@@ -12,7 +12,7 @@ By default, the compressed files are stored inside `.tmp/webcache/` using the na
 
 The cache root directory can be configured by changing the value of `sails.config.webcache.cacheRoot`.
 
-#### Example
+### Example
 
 The `request` method performs the actual GET request and returns the response body like so:
 
