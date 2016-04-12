@@ -17,7 +17,7 @@ The cache root directory can be configured by changing the value of `sails.confi
 The `request` method performs the actual GET request and returns the response body like so:
 
 ```javascript
-sails.hook.webcache.request({
+sails.hooks.webcache.request({
   url: 'http://example.com',  // Fetch this URL
   followRedirect: false,      // Should we follow 3xx HTTP responses?
   reset: false                // Should we fetch a new copy?
