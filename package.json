@@ -1,0 +1,24 @@
+{
+  "name": "sails-hook-webcache",
+  "version": "0.0.1",
+  "description": "Sails.js hook that provides web caching to compressed files on disk.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/PascalAnimateur/sails-hook-webcache.git"
+  },
+  "sails": {
+    "isHook": true
+  },
+  "author": "Pascal Martineau <pascal.animateur@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PascalAnimateur/sails-hook-webcache/issues"
+  },
+  "homepage": "https://github.com/PascalAnimateur/sails-hook-webcache",
+  "dependencies": {
+    "crypto": "0.0.3",
+    "mkdirp": "^0.5.1",
+    "request": "^2.70.0"
+  }
+}
