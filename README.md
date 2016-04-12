@@ -1,10 +1,10 @@
 # sails-hook-webcache
 
-[Sails JS](http://sailsjs.org) hook that provides web caching to compressed files on disk.
+[Sails.sj](http://sailsjs.org) hook that provides web caching to compressed files on disk.
 
 ### Installation
 
-`npm install --save sails-hook-autoreload`
+`npm install --save sails-hook-webcache`
 
 ### Configuration
 
